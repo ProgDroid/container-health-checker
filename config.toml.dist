@@ -1,0 +1,17 @@
+interval = <value in seconds> # 5
+timeout = <value in seconds> # 60
+retries = <amount> # 5
+
+[containers.a]
+protocol = "http"
+host = "host.test"
+port = "8002"
+
+[containers.b]
+protocol = "http"
+host = "another.host"
+port = "9000"
+
+[containers.c]
+protocol = "https"
+host = "some.host"
